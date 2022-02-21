@@ -29,12 +29,6 @@ function App() {
    });
   }, [])
 
-  function close(){
-    setSelectedItem(null)
-  }
-
-  
-
 if (selectedItem !=null){
   return 
  
